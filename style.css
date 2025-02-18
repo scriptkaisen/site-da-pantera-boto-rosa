@@ -1,0 +1,55 @@
+/* Resetando estilos padrões */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f075df;
+}
+
+.navbar {
+    background-color: #f42a8f; /* Cor rosa */
+    padding: 20px;
+    text-align: center;
+}
+
+.navbar h1 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+/* Estilo da barra de pesquisa */
+.search-container {
+    text-align: center;
+    margin-top: 20px; /* Ajusta o espaçamento abaixo da navbar */
+    padding: 10px;
+    background-color: #f075df; /* Cor de fundo para destacar a pesquisa */
+    border-radius: 10px;
+    margin: 10px; /* Espaço entre a navbar e a barra de pesquisa */
+}
+
+.search-container input {
+    padding: 10px;
+    font-size: 1rem;
+    width: 250px;
+    border: 1px solid #ccc; /* Cor de borda para o input */
+    border-radius: 5px;
+}
+
+.search-container button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #f42a8f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.search-container button:hover {
+    background-color: #d01c7e;
+}
